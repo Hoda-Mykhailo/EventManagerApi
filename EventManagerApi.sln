@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagerApi", "EventManagerApi\EventManagerApi.csproj", "{377B1FCD-4980-4799-AF32-E1C490A96400}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{377B1FCD-4980-4799-AF32-E1C490A96400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377B1FCD-4980-4799-AF32-E1C490A96400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377B1FCD-4980-4799-AF32-E1C490A96400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377B1FCD-4980-4799-AF32-E1C490A96400}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A40913F6-F216-4736-8632-9A918F6E76E2}
+	EndGlobalSection
+EndGlobal
