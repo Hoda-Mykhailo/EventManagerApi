@@ -1,6 +1,10 @@
-﻿namespace EventManagerApi.Repositories
+﻿using EventManagerApi.Models;
+
+namespace EventManagerApi.Repositories
 {
-    public class IUserRepository
+    public interface IUserRepository
     {
+        Task<User?> GetByUsernameAsync(string username);
+        Task<User> AddAsync(User user);
     }
 }
