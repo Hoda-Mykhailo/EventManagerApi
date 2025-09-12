@@ -1,4 +1,14 @@
+using Serilog;
+
 var builder = WebApplication.CreateBuilder(args);
+
+//Logging 
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File("log/log.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+
+builder.Host.UseSerilog(); //Ended work with pogram.cs -- 12.09.2025, continue tomorrow!!!
 
 // Add services to the container.
 
