@@ -1,6 +1,11 @@
-﻿namespace EventManagerApi.Services
+﻿using EventManagerApi.Models.DTO;
+using EventManagerApi.Models;
+
+namespace EventManagerApi.Services
 {
-    public class IUserService
+    public interface IUserService
     {
+        Task<string?> RegisterAsync(RegisterDto dto);
+        Task<string?> LoginAsync(LoginDto dto);
     }
 }
