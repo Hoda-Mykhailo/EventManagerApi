@@ -7,9 +7,9 @@ namespace EventManagerApi.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<User> Users => Set<User>();
-        public DbSet<Event> Events => Set<Event>();
-        public DbSet<Role> Roles => Set<Role>();
+        public DbSet<User> Users { get; set; }
+        public DbSet<Event> Events { get; set; }
+        public DbSet<Role> Roles { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
